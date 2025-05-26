@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Explain Code",
+        "type": "shell",
+        "command": "python",
+        "args": [
+          "${workspaceFolder}/env/assistant.py",
+          "--clipboard"
+        ],
+        "problemMatcher": [],
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        }
+      }
+    ],
+    "inputs": []
+  }
