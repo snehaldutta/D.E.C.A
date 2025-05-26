@@ -3,7 +3,7 @@ import ollama
 import pyperclip
 from pathlib import Path
 
-prompt_path = Path('env/prompt.txt')
+prompt_path = Path('prompt.txt')
 sys_prompt = prompt_path.read_text()
 
 def read_code_clip():
